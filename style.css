@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  margin: 0;
+  background-color: #7776BC;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  color: black;
+}
+
+.logo {
+    display: inline;
+    height: 200px;
+    color: white;
+    background-color: #CDC7E5;
+}
+
+.logo img {
+  border: 50%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFBDB;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:link, nav a:visited {
+  color: #7776BC;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #CDC7E5;
+}
+
+.group-section {
+  background-color: #CDC7E5;
+  margin: 2em;
+  padding-top: 1em;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.about-section {
+  background-color: #CDC7E5;
+  margin: 2em;
+  padding-bottom: 1em;
+}
+
+.middle-section {
+  margin: 2em;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section-img {
+  border: 5px solid black;
+}
+
+.babysitting {
+  grid-column: 1/2;
+  text-align: center;
+}
+
+.chores {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.date {
+  grid-column: 3/4;
+  text-align: center;
+}
+
+.work {
+  grid-column: 4/5;
+  text-align: center;
+}
+
+.middle-section img {
+  height: 200px;
+  box-sizing: border-box;
+}
+
+* {box-sizing:border-box}
+
+.group {
+  margin: 5em;
+  background-color: #CDC7E5;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.slideshow-container {
+  width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-radius: 50%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+footer {
+  background-color: #CDC7E5;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h3 {
+  color: black;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.icon {
+  width: 80px;
+}
